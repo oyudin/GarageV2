@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>INFO</title>
+</head>
+<h2>Here is all info about cars and persons:</h2>
+<body>
+<ul>
+    <th:block th:each="person : ${persons}">
+        <li th:utext="${person}"></li>
+    </th:block>
+</ul>
+<img src="https://phonoteka.org/uploads/posts/2021-05/1621005305_9-phonoteka_org-p-fon-dlya-saita-s-mashinami-9.jpg"
+     alt=""
+     width="100%" height="100%">
+</body>
+</html>
